@@ -223,7 +223,7 @@ body {
     top: 750px;
   }
 
-  #about-text {
+  .about-text {
       text-align: center;
       color: white;
       font-size: 2.5rem;
