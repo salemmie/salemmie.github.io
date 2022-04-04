@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Amatic SC', cursive;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+header {
+    background: #FE7B8F;
+    position: sticky;
+    z-index: 999;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* .logo {
+    float: left;
+    padding: 10px 0;
+    color: white;
+    font-size: 2.5rem;
+} */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 3rem;
+    margin: 10px 100px 10px 100px;
+    position: relative;
+}
+
+nav a {
+    color: white;
+    font-size: 2rem;
+}
+
+nav a:hover {
+    color: #DE6678;
+    transition: all 250ms ease-in-out;
+}
+
+.intro {
+    background-color:#FFB6C1;
+}
+
+.portrait {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 50px;
+}
+  /* Sparkle 1 */
+
+.sparkle1 {
+    width: 100px;
+    -webkit-animation: fadeinout 2s linear;
+    animation: fadeinout 2s linear;
+    opacity: 0;
+    z-index: 998;
+    animation-name: sparkle1;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    position: relative;
+    left: 450px;
+    top: 450px;
+    
+}
+
+@keyframes sparkle1 {
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-o-keyframes sparkle1{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes sparkle1{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes sparkle1{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+
+  /* Sparkle 2 */
+
+.sparkle2 {
+    width: 70px;
+    -webkit-animation: fadeinout 3s linear;
+    animation: fadeinout 3s linear;
+    opacity: 0;
+    z-index: 998;
+    animation-name: sparkle2;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    position: relative;
+    left: 300px;
+    top: 465px;
+    
+}
+
+@keyframes sparkle2 {
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-o-keyframes sparkle2{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes sparkle2{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes sparkle2{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  
+    /* Sparkle 3 */
+
+.sparkle3 {
+    width: 100px;
+    -webkit-animation: fadeinout 2s linear;
+    animation: fadeinout 2s linear;
+    opacity: 0;
+    z-index: 998;
+    animation-name: sparkle3;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    position: relative;
+    left: -60px;
+    top: 120px;
+    
+}
+
+@keyframes sparkle3 {
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-o-keyframes sparkle3{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes sparkle3{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes sparkle3{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  
+  /* Sparkle 4 */
+
+.sparkle4 {
+    width: 70px;
+    -webkit-animation: fadeinout 2s linear;
+    animation: fadeinout 2s linear;
+    opacity: 0;
+    z-index: 998;
+    animation-name: sparkle1;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    position: relative;
+    left: -200px;
+    top: 150px;
+    
+}
+
+@keyframes sparkle1 {
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-o-keyframes sparkle1{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes sparkle1{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes sparkle1{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+
+  .intro-text {
+      display: inline-block;
+      position: relative;
+      left: 800px;
+      top: -400px;
+      font-size: 4rem;
+      color: white;
+          
+  }
