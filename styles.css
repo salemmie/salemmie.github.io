@@ -10,11 +10,14 @@
 .navbar {
     background: #FE7B8F;
     display: flex;
-    position: sticky;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
     z-index: 999;
     align-items: center;
     justify-content: center;
-    top: 0;
+    
 }
 
 .navbar ul {
@@ -25,7 +28,7 @@
 
 .navbar ul li {
     font-size: 1.1rem;
-    margin: 20px 100px;
+    margin: 0px 100px;
 }
 
 .navbar ul li a {
@@ -44,16 +47,17 @@
 }
 
 .portrait {
-    width: 500px;
+    width: 550px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    left: 5%;
+    /* align-items: center;
+    justify-content: center; */
+    position: fixed;
+    top: 10%;
+    left: 10%;
 } 
-  /* Sparkle 1 */
+  /* Sparkle Big */
 
-.sparkle1 {
+.sparklebig {
     width: 100px;
     -webkit-animation: fadeinout 2s linear;
     animation: fadeinout 2s linear;
@@ -62,11 +66,7 @@
     animation-name: sparkle1;
     animation-duration: 3s;
     animation-fill-mode: both;
-    animation-iteration-count: infinite;
-    position: absolute;
-    left: 480px;
-    top: 520px;
-    
+    animation-iteration-count: infinite; 
 }
 
 @keyframes sparkle1 {
@@ -90,9 +90,9 @@
     100% { opacity:1; }
   }
 
-  /* Sparkle 2 */
+  /* Sparkle Small */
 
-.sparkle2 {
+.sparklesmall {
     width: 70px;
     -webkit-animation: fadeinout 1s linear;
     animation: fadeinout 1s linear;
@@ -103,7 +103,7 @@
     animation-fill-mode: both;
     animation-iteration-count: infinite;
     position: absolute;
-    left: 430px;
+    left: 550px;
     top: 560px;
     
 }
@@ -129,83 +129,30 @@
     100% { opacity:1; }
   }
   
-    /* Sparkle 3 */
-
-.sparkle3 {
-    width: 100px;
-    -webkit-animation: fadeinout 2s linear;
-    animation: fadeinout 2s linear;
-    opacity: 0;
-    z-index: 998;
-    animation-name: sparkle3;
-    animation-duration: 3s;
-    animation-fill-mode: both;
-    animation-iteration-count: infinite;
-    position: absolute;
-    left: 150px;
-    top: 190px;
-    
+.p1 {
+    position: fixed;
+    left: 600px;
+    top: 520px;
 }
 
-@keyframes sparkle3 {
-    0%   { opacity:1; }
-    50%  { opacity:0; }
-    100% { opacity:1; }
-  }
-  @-o-keyframes sparkle3{
-    0%   { opacity:1; }
-    50%  { opacity:0; }
-    100% { opacity:1; }
-  }
-  @-moz-keyframes sparkle3{
-    0%   { opacity:1; }
-    50%  { opacity:0; }
-    100% { opacity:1; }
-  }
-  @-webkit-keyframes sparkle3{
-    0%   { opacity:1; }
-    50%  { opacity:0; }
-    100% { opacity:1; }
-  }
-  
-  /* Sparkle 4 */
-
-.sparkle4 {
-    width: 70px;
-    -webkit-animation: fadeinout 2s linear;
-    animation: fadeinout 2s linear;
-    opacity: 0;
-    z-index: 998;
-    animation-name: sparkle1;
-    animation-duration: 2.5s;
-    animation-fill-mode: both;
-    animation-iteration-count: infinite;
-    position: absolute;
-    left: 100px;
-    top: 230px;
-    
+.p2 {
+    position: fixed;
+    left: 550px;
 }
 
-@keyframes sparkle1 {
-    0%   { opacity:1; }
-    50%  { opacity:0; }
-    100% { opacity:1; }
-  }
-  @-o-keyframes sparkle1{
-    0%   { opacity:1; }
-    50%  { opacity:0; }
-    100% { opacity:1; }
-  }
-  @-moz-keyframes sparkle1{
-    0%   { opacity:1; }
-    50%  { opacity:0; }
-    100% { opacity:1; }
-  }
-  @-webkit-keyframes sparkle1{
-    0%   { opacity:1; }
-    50%  { opacity:0; }
-    100% { opacity:1; }
-  }
+.p3 {
+    position: fixed;
+    left: 270px;
+    top: 110px;
+}
+
+.p4 {
+    position: fixed;
+    left: 220px;
+    top: 150px;
+}
+
+
 
   #home {
       display: flex;
