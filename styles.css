@@ -196,3 +196,24 @@
       position: absolute;
       right: 10px;
   }
+
+  .p6 {
+      display: flex;
+      position: absolute;
+      right: 100px;
+      top: 660px;
+  }
+
+  .p7 {
+      display: flex;
+      position: absolute;
+      left: 10px;
+      top: 750px;
+  }
+
+  .p8 {
+    display: flex;
+    position: absolute;
+    left: 100px;
+    top: 750px;
+  }
