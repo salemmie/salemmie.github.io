@@ -20,28 +20,27 @@
         top: 0;
         width: 100%;
         z-index: 999;
-        align-items: center;
         justify-content: center;
     
 }
 
     .navbar ul {
         display: flex;
-        margin: 20px 0;
         list-style: none;
 }
 
     .navbar ul li {
         font-size: 1.1rem;
-        margin: 0px 100px;
+        margin: 10px 20px;
 }
 
     .navbar ul li a {
+        display: inline-block;
         color: white;
         font-size: 2rem;
         padding: 8px 25px;
         border: solid white 2px;
-        border-radius: 4px;
+        border-radius: 10px;
         align-items: center;
 }
 
@@ -457,7 +456,7 @@
         display: flex;
         position: absolute;
         top: 60vh;
-        margin: 3vh;
+        margin: 3vh 3vh;
         font-size: 2.5vh;
     }
 
