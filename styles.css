@@ -232,6 +232,7 @@ body {
       border-radius: 60px;
       padding: 50px;
       margin: 10px;
+      opacity: .8;
   }
 
   .p9 {
@@ -246,4 +247,13 @@ body {
     position: absolute;
     right: 30px;
     top: 850px;
+  }
+
+  #projects {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+    background-color: #FFB6C1;
   }
