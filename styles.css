@@ -51,7 +51,7 @@
     display: flex;
     /* align-items: center;
     justify-content: center; */
-    position: fixed;
+    position: absolute;
     top: 10%;
     left: 10%;
 } 
@@ -102,10 +102,6 @@
     animation-duration: 2.5s;
     animation-fill-mode: both;
     animation-iteration-count: infinite;
-    position: absolute;
-    left: 550px;
-    top: 560px;
-    
 }
 
 @keyframes sparkle2 {
@@ -130,24 +126,25 @@
   }
   
 .p1 {
-    position: fixed;
+    position: absolute;
     left: 600px;
     top: 520px;
 }
 
 .p2 {
-    position: fixed;
+    position: absolute;
     left: 550px;
+    top: 560px;
 }
 
 .p3 {
-    position: fixed;
+    position: absolute;
     left: 270px;
     top: 110px;
 }
 
 .p4 {
-    position: fixed;
+    position: absolute;
     left: 220px;
     top: 150px;
 }
@@ -192,4 +189,10 @@
       padding: 20px;
       margin-bottom: 50px;
       background-color: #FFB6C1;
+  }
+
+  .p5 {
+      display: flex;
+      position: absolute;
+      right: 10px;
   }
