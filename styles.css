@@ -7,6 +7,10 @@
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #FFB6C1;
+}
+
 .navbar {
     background: #FE7B8F;
     display: flex;
@@ -52,8 +56,8 @@
     /* align-items: center;
     justify-content: center; */
     position: absolute;
-    top: 10%;
-    left: 10%;
+    top: 90px;
+    left: 200px;
 } 
   /* Sparkle Big */
 
@@ -126,24 +130,28 @@
   }
   
 .p1 {
+    display: flex;
     position: absolute;
     left: 600px;
     top: 520px;
 }
 
 .p2 {
+    display: flex;
     position: absolute;
     left: 550px;
     top: 560px;
 }
 
 .p3 {
+    display: flex;
     position: absolute;
     left: 270px;
     top: 110px;
 }
 
 .p4 {
+    display: flex;
     position: absolute;
     left: 220px;
     top: 150px;
@@ -154,13 +162,10 @@
   #home {
       display: flex;
       flex-direction: column;
-      background-color: #FFB6C1;
       height: 600px;
       justify-content: center;
       align-items: center;
   }
-
-  
 
   .headings {
       display: flex;
@@ -179,7 +184,7 @@
   .intro-text {
       display: flex;
       position: absolute;
-      left: 50%;
+      left: 1000px;
   }
 
   #about {
@@ -216,4 +221,30 @@
     position: absolute;
     left: 100px;
     top: 750px;
+  }
+
+  #about-text {
+      text-align: center;
+      color: white;
+      font-size: 2.5rem;
+      background-color: #FE7B8F;
+      border: 2px solid white;
+      border-radius: 60px;
+      padding: 50px;
+      margin: 10px;
+
+  }
+
+  .p9 {
+    display: flex;
+    position: absolute;
+    left: 30px;
+    top: 1030px;
+  }
+
+  .p10 {
+    display: flex;
+    position: absolute;
+    right: 30px;
+    top: 850px;
   }
