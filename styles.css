@@ -7,253 +7,495 @@
     scroll-behavior: smooth;
 }
 
-body {
-    background-color: #FFB6C1;
+@media only screen and (min-width: 451px) {
+    body {
+        background-color: #FFB6C1;
 }
 
-.navbar {
-    background: #FE7B8F;
-    display: flex;
-    position: fixed;
-    overflow: hidden;
-    top: 0;
-    width: 100%;
-    z-index: 999;
-    align-items: center;
-    justify-content: center;
+    .navbar {
+        background: #FE7B8F;
+        display: flex;
+        position: fixed;
+        overflow: hidden;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+        align-items: center;
+        justify-content: center;
     
 }
 
-.navbar ul {
-    display: flex;
-    margin: 20px 0;
-    list-style: none;
+    .navbar ul {
+        display: flex;
+        margin: 20px 0;
+        list-style: none;
 }
 
-.navbar ul li {
-    font-size: 1.1rem;
-    margin: 0px 100px;
+    .navbar ul li {
+        font-size: 1.1rem;
+        margin: 0px 100px;
 }
 
-.navbar ul li a {
-    color: white;
-    font-size: 2rem;
-    padding: 8px 25px;
-    border: solid white 2px;
-    border-radius: 4px;
-    align-items: center;
+    .navbar ul li a {
+        color: white;
+        font-size: 2rem;
+        padding: 8px 25px;
+        border: solid white 2px;
+        border-radius: 4px;
+        align-items: center;
 }
 
-.navbar ul li a:hover {
-    color: #FEA6B3;
-    transition: all 250ms ease-in-out;
-    background-color: #DB5F71;
+    .navbar ul li a:hover {
+        color: #FEA6B3;
+        transition: all 250ms ease-in-out;
+        background-color: #DB5F71;
 }
 
-.portrait {
-    width: 550px;
-    display: flex;
-    /* align-items: center;
-    justify-content: center; */
-    position: absolute;
-    top: 90px;
-    left: 200px;
+    .portrait {
+        width: 550px;
+        display: flex;
+        /* align-items: center;
+        justify-content: center; */
+        position: absolute;
+        top: 90px;
+        left: 200px;
 } 
   /* Sparkle Big */
 
-.sparklebig {
-    width: 100px;
-    -webkit-animation: fadeinout 2s linear;
-    animation: fadeinout 2s linear;
-    opacity: 0;
-    z-index: 998;
-    animation-name: sparkle1;
-    animation-duration: 3s;
-    animation-fill-mode: both;
-    animation-iteration-count: infinite; 
-}
+    .sparklebig {
+        width: 100px;
+        -webkit-animation: fadeinout 2s linear;
+        animation: fadeinout 2s linear;
+        opacity: 0;
+        z-index: 998;
+        animation-name: sparkle1;
+        animation-duration: 3s;
+        animation-fill-mode: both;
+        animation-iteration-count: infinite; 
+    }
 
-@keyframes sparkle1 {
-    0%   { opacity:1; }
-    50%  { opacity:0; }
-    100% { opacity:1; }
-  }
-  @-o-keyframes sparkle1{
-    0%   { opacity:1; }
-    50%  { opacity:0; }
-    100% { opacity:1; }
-  }
-  @-moz-keyframes sparkle1{
-    0%   { opacity:1; }
-    50%  { opacity:0; }
-    100% { opacity:1; }
-  }
-  @-webkit-keyframes sparkle1{
-    0%   { opacity:1; }
-    50%  { opacity:0; }
-    100% { opacity:1; }
-  }
+    @keyframes sparkle1 {
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:1; }
+    }
+    @-o-keyframes sparkle1{
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:1; }
+    }
+    @-moz-keyframes sparkle1{
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:1; }
+    }
+    @-webkit-keyframes sparkle1{
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:1; }
+    }
 
   /* Sparkle Small */
 
-.sparklesmall {
-    width: 70px;
-    -webkit-animation: fadeinout 1s linear;
-    animation: fadeinout 1s linear;
-    opacity: 0;
-    z-index: 998;
-    animation-name: sparkle2;
-    animation-duration: 2.5s;
-    animation-fill-mode: both;
-    animation-iteration-count: infinite;
+    .sparklesmall {
+        width: 70px;
+        -webkit-animation: fadeinout 1s linear;
+        animation: fadeinout 1s linear;
+        opacity: 0;
+        z-index: 998;
+        animation-name: sparkle2;
+        animation-duration: 2.5s;
+        animation-fill-mode: both;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes sparkle2 {
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:1; }
+    }
+    @-o-keyframes sparkle2{
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:1; }
+    }
+    @-moz-keyframes sparkle2{
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:1; }
+    }
+    @-webkit-keyframes sparkle2{
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:1; }
+    }
+    
+    .p1 {
+        display: flex;
+        position: absolute;
+        left: 600px;
+        top: 520px;
+    }
+
+    .p2 {
+        display: flex;
+        position: absolute;
+        left: 550px;
+        top: 560px;
+    }
+
+    .p3 {
+        display: flex;
+        position: absolute;
+        left: 270px;
+        top: 110px;
+    }
+
+    .p4 {
+        display: flex;
+        position: absolute;
+        left: 220px;
+        top: 150px;
+    }
+
+    #home {
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .headings {
+        display: flex;
+        flex-direction: column;      
+        border: 2px solid white;
+        border-radius: 60px;
+        align-items: center;
+        font-size: 3rem;
+        margin: 40px 0px;
+        opacity: .8;
+        color: white;
+        padding: 50px;
+        background: #FE7B8F;
+    }
+
+    .intro-text {
+        display: flex;
+        position: absolute;
+        left: 1000px;
+    }
+
+    #about {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 20px;
+        margin-bottom: 50px;
+        background-color: #FFB6C1;
+    }
+
+    .p5 {
+        display: flex;
+        position: absolute;
+        right: 10px;
+    }
+
+    .p6 {
+        display: flex;
+        position: absolute;
+        right: 100px;
+        top: 660px;
+    }
+
+    .p7 {
+        display: flex;
+        position: absolute;
+        left: 10px;
+        top: 750px;
+    }
+
+    .p8 {
+        display: flex;
+        position: absolute;
+        left: 100px;
+        top: 750px;
+    }
+
+    .about-text {
+        text-align: center;
+        color: white;
+        font-size: 2.5rem;
+        background-color: #FE7B8F;
+        border: 2px solid white;
+        border-radius: 60px;
+        padding: 50px;
+        margin: 10px;
+        opacity: .8;
+    }
+
+    .p9 {
+        display: flex;
+        position: absolute;
+        left: 30px;
+        top: 1030px;
+    }
+
+    .p10 {
+        display: flex;
+        position: absolute;
+        right: 30px;
+        top: 850px;
+    }
+
+    #projects {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 20px;
+        margin-bottom: 50px;
+        background-color: #FFB6C1;
+    }
 }
 
-@keyframes sparkle2 {
-    0%   { opacity:1; }
-    50%  { opacity:0; }
-    100% { opacity:1; }
-  }
-  @-o-keyframes sparkle2{
-    0%   { opacity:1; }
-    50%  { opacity:0; }
-    100% { opacity:1; }
-  }
-  @-moz-keyframes sparkle2{
-    0%   { opacity:1; }
-    50%  { opacity:0; }
-    100% { opacity:1; }
-  }
-  @-webkit-keyframes sparkle2{
-    0%   { opacity:1; }
-    50%  { opacity:0; }
-    100% { opacity:1; }
-  }
-  
-.p1 {
-    display: flex;
-    position: absolute;
-    left: 600px;
-    top: 520px;
+@media only screen and (max-width: 450px) {
+    
+    body {
+        background-color: #FFB6C1;
+    }
+    
+    .navbar {
+        background: #FE7B8F;
+        display: flex;
+        position: fixed;
+        overflow: hidden;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar ul {
+        display: flex;
+        margin: 20px 0;
+        list-style: none;
+    }
+
+    .navbar ul li {
+        font-size: 1.1rem;
+        margin: 0px 15px;
+    }
+
+    .navbar ul li a {
+        color: white;
+        font-size: 2vh;
+        padding: 8px 25px;
+        border: solid white 2px;
+        border-radius: 4px;
+        align-items: center;
+        font-weight: bold;
+    }
+
+     .portrait {
+        width: 70%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        top: 15%;
+        left: 15%;
+        position: absolute;
+     }
+
+     .sparklebig {
+        width: 10vh;
+        -webkit-animation: fadeinout 2s linear;
+        animation: fadeinout 2s linear;
+        opacity: 0;
+        z-index: 998;
+        animation-name: sparkle1;
+        animation-duration: 3s;
+        animation-fill-mode: both;
+        animation-iteration-count: infinite; 
+    }
+
+    @keyframes sparkle1 {
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:1; }
+    }
+    @-o-keyframes sparkle1{
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:1; }
+    }
+    @-moz-keyframes sparkle1{
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:1; }
+    }
+    @-webkit-keyframes sparkle1{
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:1; }
+    }
+
+    .sparklesmall {
+        width: 10%;
+        -webkit-animation: fadeinout 1s linear;
+        animation: fadeinout 1s linear;
+        opacity: 0;
+        z-index: 998;
+        animation-name: sparkle2;
+        animation-duration: 2.5s;
+        animation-fill-mode: both;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes sparkle2 {
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:1; }
+    }
+    @-o-keyframes sparkle2{
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:1; }
+    }
+    @-moz-keyframes sparkle2{
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:1; }
+    }
+    @-webkit-keyframes sparkle2{
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:1; }
+    }
+
+    .p1 {
+        display: flex;
+        position: absolute;
+        left: 45vh;
+        top: 45vh;
+    }
+
+    .p2 {
+        display: flex;
+        position: absolute;
+        left: 42vh;
+        top: 52vh;
+    }
+
+    .p3 {
+        display: flex;
+        position: absolute;
+        left: 15vh;
+        top: 14vh;
+    }
+
+    .p4 {
+        display: flex;
+        position: absolute;
+        left: 12vh;
+        top: 20vh;
+    }
+
+    .p5 {
+        display: none;
+    }
+
+    .p6 {
+        display: flex;
+        position: absolute;
+        top: -9vh;
+        left: 1vh;
+    }
+
+    .p7 {
+        display: none;
+    }
+
+    .p8 {
+        display: flex;
+        position: absolute;
+        top: -19vh;
+        left: 57vh;
+    }
+
+    .p9 {
+        display: none;
+    }
+
+    .p10 {
+        display: flex;
+        position: absolute;
+        top: 12vh;
+        left: 2vh
+    }
+
+    .p12 {
+        display: flex;
+        position: absolute;
+        left: 55vh;
+    }
+
+    .headings {
+        display: flex;
+        flex-direction: column;      
+        border: 2px solid white;
+        border-radius: 60px;
+        align-items: center;
+        font-size: 5vh;
+        margin: 15px 10px;
+        opacity: .8;
+        color: white;
+        padding: 20px;
+        background: #FE7B8F;
+    }
+
+    .intro-text {
+        display: flex;
+        position: absolute;
+        top: 60vh;
+        margin: 5px;
+    }
+
+
+    #about {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 20px;
+        margin-bottom: 10vh;
+        background-color: #FFB6C1;
+        position: absolute;
+        top: 80vh;
+    }
+
+    .about-text {
+        text-align: center;
+        color: white;
+        font-size: 3vh;
+        background-color: #FE7B8F;
+        border: 2px solid white;
+        border-radius: 60px;
+        padding: 50px;
+        margin: 10px;
+        opacity: .8;
+    }
+
+    #projects {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 20px;
+        margin: 5px;
+        background-color: #FFB6C1;
+        position: absolute;
+        top: 185vh;
+        width: 100%;
+    }
+
+
 }
-
-.p2 {
-    display: flex;
-    position: absolute;
-    left: 550px;
-    top: 560px;
-}
-
-.p3 {
-    display: flex;
-    position: absolute;
-    left: 270px;
-    top: 110px;
-}
-
-.p4 {
-    display: flex;
-    position: absolute;
-    left: 220px;
-    top: 150px;
-}
-
-
-
-  #home {
-      display: flex;
-      flex-direction: column;
-      height: 600px;
-      justify-content: center;
-      align-items: center;
-  }
-
-  .headings {
-      display: flex;
-      flex-direction: column;      
-      border: 2px solid white;
-      border-radius: 60px;
-      align-items: center;
-      font-size: 3rem;
-      margin: 40px 0px;
-      opacity: .8;
-      color: white;
-      padding: 50px;
-      background: #FE7B8F;
-  }
-
-  .intro-text {
-      display: flex;
-      position: absolute;
-      left: 1000px;
-  }
-
-  #about {
-      display: flex;
-      flex-direction: column;
-      box-sizing: border-box;
-      padding: 20px;
-      margin-bottom: 50px;
-      background-color: #FFB6C1;
-  }
-
-  .p5 {
-      display: flex;
-      position: absolute;
-      right: 10px;
-  }
-
-  .p6 {
-      display: flex;
-      position: absolute;
-      right: 100px;
-      top: 660px;
-  }
-
-  .p7 {
-      display: flex;
-      position: absolute;
-      left: 10px;
-      top: 750px;
-  }
-
-  .p8 {
-    display: flex;
-    position: absolute;
-    left: 100px;
-    top: 750px;
-  }
-
-  .about-text {
-      text-align: center;
-      color: white;
-      font-size: 2.5rem;
-      background-color: #FE7B8F;
-      border: 2px solid white;
-      border-radius: 60px;
-      padding: 50px;
-      margin: 10px;
-      opacity: .8;
-  }
-
-  .p9 {
-    display: flex;
-    position: absolute;
-    left: 30px;
-    top: 1030px;
-  }
-
-  .p10 {
-    display: flex;
-    position: absolute;
-    right: 30px;
-    top: 850px;
-  }
-
-  #projects {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    padding: 20px;
-    margin-bottom: 50px;
-    background-color: #FFB6C1;
-  }
