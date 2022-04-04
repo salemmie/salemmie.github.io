@@ -7,7 +7,7 @@
     scroll-behavior: smooth;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 1001px) {
     body {
         background-color: #FFB6C1;
 }
@@ -258,7 +258,7 @@
     }
 }
 
-@media only screen and (max-width: 699px) {
+@media only screen and (max-width: 1000px) {
     
     body {
         background-color: #FFB6C1;
