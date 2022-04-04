@@ -7,7 +7,7 @@
     scroll-behavior: smooth;
 }
 
-@media only screen and (min-width: 1001px) {
+@media only screen and (min-width: 750px) {
     body {
         background-color: #FFB6C1;
 }
@@ -258,7 +258,7 @@
     }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 749px) {
     
     body {
         background-color: #FFB6C1;
@@ -284,13 +284,14 @@
 
     .navbar ul li {
         font-size: 1.1rem;
-        margin: 0px 15px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     .navbar ul li a {
         color: white;
-        font-size: 2vh;
-        padding: 8px 25px;
+        font-size: 3vh;
+        padding: 8px 15px;
         border: solid white 2px;
         border-radius: 4px;
         align-items: center;
@@ -298,12 +299,12 @@
     }
 
      .portrait {
-        width: 70%;
+        width: 80%;
         height: auto;
         display: flex;
         justify-content: center;
         top: 15%;
-        left: 15%;
+        left: 10%;
         position: absolute;
      }
 
@@ -376,14 +377,14 @@
     .p1 {
         display: flex;
         position: absolute;
-        left: 45vh;
+        left: 40vh;
         top: 45vh;
     }
 
     .p2 {
         display: flex;
         position: absolute;
-        left: 42vh;
+        left: 38vh;
         top: 52vh;
     }
 
@@ -420,7 +421,7 @@
         display: flex;
         position: absolute;
         top: -19vh;
-        left: 57vh;
+        left: 50vh;
     }
 
     .p9 {
@@ -437,7 +438,7 @@
     .p12 {
         display: flex;
         position: absolute;
-        left: 55vh;
+        left: 50vh;
     }
 
     .headings {
@@ -446,11 +447,10 @@
         border: 2px solid white;
         border-radius: 60px;
         align-items: center;
-        font-size: 5vh;
         margin: 15px 10px;
         opacity: .8;
         color: white;
-        padding: 20px;
+        padding: 15px;
         background: #FE7B8F;
     }
 
@@ -458,7 +458,8 @@
         display: flex;
         position: absolute;
         top: 60vh;
-        margin: 5px;
+        margin: 3vh;
+        font-size: 2.5vh;
     }
 
 
