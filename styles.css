@@ -286,9 +286,7 @@ button a:hover {
     transition: all 0.3s ease-in-out;
 }
 
-peepeepoopoo
-
-@media only screen and (max-width: 749px) {
+@media only screen and (max-width: 768px) {
 
     .navbar ul li {
         font-size: 1.1rem;
