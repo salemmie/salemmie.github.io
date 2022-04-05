@@ -195,27 +195,23 @@ header {
 }
 
 .p5 {
-    display: inline;
     position: absolute;
     right: 10px;
 }
 
 .p6 {
-    display: inline;
     position: absolute;
     right: 100px;
     top: 660px;
 }
 
 .p7 {
-    display: inline;
     position: absolute;
     left: 10px;
     top: 750px;
 }
 
 .p8 {
-    display: inline;
     position: absolute;
     left: 100px;
     top: 750px;
@@ -234,13 +230,11 @@ header {
 }
 
 .p9 {
-    display: flex;
     left: 30px;
     top: 1030px;
 }
 
 .p10 {
-    display: flex;
     right: 30px;
     top: 850px;
 }
@@ -286,7 +280,15 @@ button a:hover {
     transition: all 0.3s ease-in-out;
 }
 
-@media only screen and (max-width: 1440px) {
+.logos {
+    margin: 20px 20px 0 20px;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    filter: grayscale();
+}
+
+@media only screen and (max-width: 749px) {
 
     .navbar ul li {
         font-size: 1.1rem;
@@ -295,7 +297,6 @@ button a:hover {
 
     .navbar ul li a {
         color: white;
-        /* font-size: px; */
         padding: 2vw 2vw;
         border: solid white 2px;
         border-radius: 2vw;
@@ -326,37 +327,43 @@ button a:hover {
     .p3 {
         position: absolute;
         left: 25%;
-        top: 20%;
+        top: 10%;
     }
 
     .p4 {
         position: absolute;
-        left: 20%;
-        top: 30%;
+        left: 19%;
+        top: 20%;
     }
 
     .p5 {
-        display: none;
+        display: absolute;
+        left: 88%;
+        top: 67%;
     }
 
     .p6 {
         position: absolute;
-        top: 73vh;
-        left: 4vh;
+        top: 81%;
+        left: 1%;
     }
 
     .p7 {
-        display: none;
+        display: absolute;
+        left: 1%;
+        top: 113%;
     }
 
     .p8 {
         position: absolute;
-        top: 64vh;
-        left: 45vh;
+        top: 104%;
+        left: 88%;
     }
 
     .p9 {
-        display: none;
+        display: absolute;
+        top: 100%;
+        left:20%;
     }
 
     .p10 {
@@ -372,14 +379,16 @@ button a:hover {
         display: flex;
         flex-direction: column;      
         border: 2px solid white;
-        border-radius: 60px;
+        border-radius: 40px;
         align-items: center;
         text-align: center;
-        margin: 15px 10px;
+        justify-content: center;
         opacity: .8;
         color: white;
-        padding: 15px;
+        padding: 20px;
         background: #FE7B8F;
+        width: 450px;
+        max-width: 500px;
     }
 
     .intro-text {
@@ -392,24 +401,10 @@ button a:hover {
 
     #about {
         display: flex;
+        align-items: center;
         flex-direction: column;
-        box-sizing: border-box;
-        padding: 20px;
-        margin-bottom: 10vh;
         background-color: #FFB6C1;
-        top: 80vh;
-    }
-
-    .about-text {
-        text-align: center;
-        color: white;
-        font-size: 3vh;
-        background-color: #FE7B8F;
-        border: 2px solid white;
-        border-radius: 60px;
-        padding: 50px;
-        margin: 10px;
-        opacity: .8;
+        max-width: 500px;
     }
 
     #projects {
@@ -421,6 +416,32 @@ button a:hover {
         background-color: #FFB6C1;
         top: 185vh;
         width: 100%;
+    }
+    
+    button {
+        background-color:transparent;
+        color: #fff;
+        border:none; 
+        border-radius:10px; 
+        padding:15px;
+        min-height:30px; 
+        min-width: 120px;
+    }
+
+    button a {
+        display: inline-block;
+        position: relative;
+        color: white;
+        border: 2px solid white;
+        border-radius: 40px;
+        align-items: center;
+        font-size: 40px;
+        margin-top: 40px;
+        opacity: .8;
+        padding: 20px;
+        background: #FE7B8F;
+        width: 450px;
+        max-width: 1200px;
     }
 
 
