@@ -199,6 +199,7 @@ header {
 
 .about-me {
     position: relative;
+    margin-top: 50px;
     padding: 20px 180px;
 }
 
@@ -515,6 +516,7 @@ a:hover {
 }
 
 @media screen and (min-width: 1200px) {
+    
     .portrait {
         position: relative;
         width: 60%;
@@ -558,12 +560,14 @@ a:hover {
 
     .p7 {
         width: 15%;
-        left: 25%;
+        left: 21%;
+        top: 30%;
     }
 
     .p8 {
         width: 15%;
-        left: 60%;
+        left: 74%;
+        top: 70%;
     }
 
     .p9 {
@@ -575,5 +579,24 @@ a:hover {
         width: 15%;
         left: 96%;
     }
+
+    .p11 {
+        width: 15%;
+        left: 21%;
+        top: 6%;
+    }
+
+    .p12 {
+        width: 15%;
+        left: 73%;
+        top: 60%;
+    }
+
+    .about-me {
+        padding: 20px 200px;
+    }
     
+    .projectsheading {
+        padding: 20px 200px;
+    }
 }
