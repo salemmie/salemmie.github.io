@@ -166,9 +166,7 @@ header {
     align-items: center;
 }
 
-.headings {
-    display: flex;
-    flex-direction: column; 
+.headings { 
     position: relative;     
     border: 2px solid white;
     border-radius: 40px;
@@ -190,10 +188,6 @@ header {
 #about {
     position: relative;
     background-color: #FFB6C1;
-}
-
-.about-me {
-    margin: 150px 350px 0px 350px;
 }
 
 .p5 {
@@ -268,7 +262,6 @@ header {
     top: 216%;
     left: 53%;
 }
-peepeepoopoo
 
 #projects {
     display: relative;
@@ -334,10 +327,6 @@ a:hover {
 
 @media only screen and (max-width: 749px) {
 
-    .navbar ul li {
-        font-size: 1.1rem;
-        margin: 0 2vw;
-    }
 
     .navbar ul li a {
         color: white;
@@ -349,9 +338,9 @@ a:hover {
     }
 
      .portrait {
+        position: relative;
         width: 90%;
         height: auto;
-        display: block;
         margin-left: auto;
         margin-right: auto;
      }
@@ -382,46 +371,66 @@ a:hover {
 
     .p5 {
         display: absolute;
-        left: 88%;
-        top: 67%;
+        left: -2%;
+        top: 15%;
     }
 
     .p6 {
         position: absolute;
         top: 81%;
-        left: 1%;
+        left: 92%;
     }
 
     .p7 {
         display: absolute;
-        left: 1%;
-        top: 113%;
+        left: 11%;
+        top: 4%;
     }
 
     .p8 {
         position: absolute;
-        top: 104%;
-        left: 88%;
+        top: 13%;
+        left: 82%;
     }
 
     .p9 {
         display: absolute;
-        top: 100%;
-        left:20%;
+        top: 20%;
+        left:2%;
     }
 
     .p10 {
-        top: 12vh;
-        left: 2vh
+        position: absolute;
+        top: 91%;
+        left: 90%;
+    }
+    
+    .p11 {
+        position: absolute;
+        top: 25%;
+        left: 1%;
     }
 
     .p12 {
-        left: 50vh;
+        position: absolute;
+        top: 62%;
+        left: 88%;
     }
 
-    .headings {
-        display: flex;
-        flex-direction: column;      
+    .p13 {
+        position: absolute;
+        top: 202%;
+        left: 33%;
+    }
+
+    .p14{
+        position: absolute;
+        top: 210%;
+        left: 59%;
+    }
+
+    .headings { 
+        position: relative;     
         border: 2px solid white;
         border-radius: 40px;
         align-items: center;
@@ -436,7 +445,6 @@ a:hover {
     }
 
     .intro-text {
-        display: flex;
         top: 60%;
         margin: 3vh 3vh;
         font-size: 2.5vh;
@@ -444,25 +452,28 @@ a:hover {
 
 
     #about {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
         background-color: #FFB6C1;
-        max-width: 500px;
+    }
+
+    .about-me {
+        margin-left: 13%;
+    }
+
+    .about-text {
+        text-align: center;
+        position: relative;
     }
 
     #projects {
-        display: flex;
-        flex-direction: column;
-        box-sizing: border-box;
+        position: relative;
         padding: 20px;
         margin: 5px;
         background-color: #FFB6C1;
-        top: 185vh;
-        width: 100%;
+        /* top: 185vh; */
     }
     
     button {
+        position: relative;
         background-color:transparent;
         color: #fff;
         border:none; 
@@ -473,7 +484,6 @@ a:hover {
     }
 
     button a {
-        display: inline-block;
         position: relative;
         color: white;
         border: 2px solid white;
