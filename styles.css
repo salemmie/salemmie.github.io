@@ -513,3 +513,67 @@ a:hover {
     
 }
 }
+
+@media screen and (min-width: 1200px) {
+    .portrait {
+        position: relative;
+        width: 60%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+    .p1 {
+        width: 15%;
+        left: 70%;
+    }
+
+    .p2 {
+        min-width: 8%;
+    }
+
+    .p3 {
+        width: 15%;
+        left: 25%;
+    }
+
+    .p4 {
+        min-width: 8%;
+        left: 20%;
+        top: 13%;
+    }
+
+    .headings {
+        position: relative; 
+        text-align: center;    
+        border: 2px solid white;
+        border-radius: 40px;
+        align-items: center;
+        font-size: 40px;
+        opacity: .8;
+        color: white;
+        padding: 20px;
+        background: #FE7B8F;
+    }
+
+    .p7 {
+        width: 15%;
+        left: 25%;
+    }
+
+    .p8 {
+        width: 15%;
+        left: 60%;
+    }
+
+    .p9 {
+        width: 15%;
+        top: -3%;
+    }
+
+    .p10 {
+        width: 15%;
+        left: 96%;
+    }
+    
+}
