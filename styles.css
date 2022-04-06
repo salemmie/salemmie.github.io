@@ -115,6 +115,7 @@ header {
     animation-duration: 2.5s;
     animation-fill-mode: both;
     animation-iteration-count: infinite;
+    max-width: 50px;
 }
 
 @keyframes sparkle2 {
@@ -187,6 +188,7 @@ header {
 }
 
 #about {
+    position: relative;
     background-color: #FFB6C1;
 }
 
@@ -196,25 +198,26 @@ header {
 
 .p5 {
     position: absolute;
-    right: 10px;
+    top: 20%;
+    left: -3%;
 }
 
 .p6 {
     position: absolute;
-    right: 100px;
-    top: 660px;
+    top: 75%;
+    left: 92%;
 }
 
 .p7 {
     position: absolute;
-    left: 10px;
-    top: 750px;
+    left: 28%;
+    top: 17%;
 }
 
 .p8 {
     position: absolute;
-    left: 100px;
-    top: 750px;
+    left: 68%;
+    top: 27%;
 }
 
 .about-text {
@@ -230,18 +233,44 @@ header {
 }
 
 .p9 {
-    left: 30px;
-    top: 1030px;
+    position: absolute;
+    left: 1%;
+    top: 33%;
 }
 
 .p10 {
-    right: 30px;
-    top: 850px;
+    position: absolute;
+    right: 1%;
+    top: 92%;
+}
+
+.p11 {
+    position: absolute;
+    top: 183%;
+    left: 36%;
+}
+
+.p12 {
+    position: absolute;
+    top: 191%;
+    left: 61%;
+
+}
+
+.p13 {
+    position: absolute;
+    top: 208%;
+    left: 44.5%;
+}
+
+.p14 {
+    position: absolute;
+    top: 216%;
+    left: 53%;
 }
 
 #projects {
-    display: flex;
-    flex-direction: column;
+    display: relative;
     box-sizing: border-box;
     padding: 20px;
     margin-bottom: 50px;
@@ -249,17 +278,20 @@ header {
 }
 
 button {
+    position: relative;
+    align-items: center;
+    justify-content: center;
     background-color:transparent;
     color: #fff;
     border:none; 
     border-radius:10px; 
+    margin: 50px;
     padding:15px;
     min-height:30px; 
     min-width: 120px;
 }
 
 button a {
-    display: inline-block;
     position: relative;
     color: white;
     border: 2px solid white;
@@ -267,6 +299,7 @@ button a {
     align-items: center;
     font-size: 40px;
     margin-top: 40px;
+    margin-bottom: 40px;
     opacity: .8;
     padding: 20px;
     background: #FE7B8F;
@@ -286,6 +319,16 @@ button a:hover {
     justify-content: center;
     width: 400px;
     filter: grayscale();
+}
+
+a {
+    color: white;
+    font-size: 40px;
+}
+
+a:hover {
+    color: #be4356;
+    transition: all 0.3s ease-in-out;
 }
 
 @media only screen and (max-width: 749px) {
