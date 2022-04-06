@@ -9,8 +9,6 @@
 
 body {
     background-color: #FFB6C1;
-    display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
@@ -173,49 +171,58 @@ header {
     border-radius: 40px;
     align-items: center;
     font-size: 40px;
-    margin-top: 40px;
     opacity: .8;
     color: white;
     padding: 20px;
     background: #FE7B8F;
-    width: 500px;
-    max-width: 1200px;
 }
 
 .intro-text {
     position: relative;
+    margin: 20px;
 }
 
 #about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-me {
     position: relative;
-    background-color: #FFB6C1;
+    padding: 20px 180px;
 }
 
 .p5 {
     position: absolute;
-    top: 20%;
+    top: -5%;
     left: -3%;
 }
 
 .p6 {
     position: absolute;
-    top: 75%;
+    top: 65%;
     left: 92%;
 }
 
 .p7 {
     position: absolute;
-    left: 28%;
-    top: 17%;
+    left: 20%;
+    bottom: 60%;
 }
 
 .p8 {
     position: absolute;
-    left: 68%;
-    top: 27%;
+    left: 73%;
+    top:60%;
 }
 
 .about-text {
+    position: relative;
     text-align: center;
     color: white;
     font-size: 30px;
@@ -229,47 +236,71 @@ header {
 
 .p9 {
     position: absolute;
-    left: 1%;
-    top: 33%;
+    left: 0%;
+    bottom: 92%;
 }
 
 .p10 {
     position: absolute;
-    right: 1%;
+    left: 96%;
     top: 92%;
 }
 
 .p11 {
     position: absolute;
-    top: 183%;
-    left: 36%;
+    bottom: 60%;
+    left: 21%;
 }
 
 .p12 {
     position: absolute;
-    top: 191%;
-    left: 61%;
+    top: 60%;
+    left: 73%;
 
 }
 
 .p13 {
     position: absolute;
-    top: 208%;
-    left: 44.5%;
+    top: 10%;
+    left: ;
 }
 
 .p14 {
     position: absolute;
-    top: 216%;
+    top: 202%;
     left: 53%;
 }
 
 #projects {
-    display: relative;
-    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projectsheading {
+    position: relative;
+    padding: 20px 180px;
+}
+
+.comingsoon {
+    position: relative;
+    color: white;
+    background-color: #FE7B8F;
     padding: 20px;
-    margin-bottom: 50px;
-    background-color: #FFB6C1;
+    font-size: 35px;
+    border: 2px solid white;
+    border-radius: 40px;
+    opacity: .8;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
@@ -312,8 +343,7 @@ button a:hover {
     margin: 20px 20px 0 20px;
     align-items: center;
     justify-content: center;
-    width: 400px;
-    filter: grayscale();
+    width: 40%;
 }
 
 a {
@@ -454,10 +484,6 @@ a:hover {
 
     #about {
         background-color: #FFB6C1;
-    }
-
-    .about-me {
-        margin-left: 13%;
     }
 
     .about-text {
