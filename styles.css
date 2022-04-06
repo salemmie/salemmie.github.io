@@ -167,7 +167,8 @@ header {
 }
 
 .headings { 
-    position: relative;     
+    position: relative; 
+    text-align: center;    
     border: 2px solid white;
     border-radius: 40px;
     align-items: center;
