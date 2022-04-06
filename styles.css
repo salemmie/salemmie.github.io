@@ -179,7 +179,7 @@ header {
 
 .intro-text {
     position: relative;
-    margin: 20px;
+    margin: 20px auto 200px;
 }
 
 #about {
@@ -402,8 +402,7 @@ a:hover {
 
     .p5 {
         display: absolute;
-        left: -2%;
-        top: 15%;
+        left: .5;
     }
 
     .p6 {
@@ -414,38 +413,27 @@ a:hover {
 
     .p7 {
         display: absolute;
-        left: 11%;
-        top: 4%;
     }
 
     .p8 {
         position: absolute;
-        top: 13%;
-        left: 82%;
     }
 
     .p9 {
         display: absolute;
-        top: 20%;
-        left:2%;
     }
 
     .p10 {
         position: absolute;
-        top: 91%;
-        left: 90%;
+        left: 91%;
     }
     
     .p11 {
         position: absolute;
-        top: 25%;
-        left: 1%;
     }
 
     .p12 {
         position: absolute;
-        top: 62%;
-        left: 88%;
     }
 
     .p13 {
