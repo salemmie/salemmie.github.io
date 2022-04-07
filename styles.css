@@ -500,8 +500,63 @@ a:hover {
         height: auto;
         margin-left: auto;
         margin-right: auto;
+    }
 
-}
+    .headings { 
+        position: relative; 
+        text-align: center;    
+        border: 2px solid white;
+        border-radius: 40px;
+        align-items: center;
+        font-size: 40px;
+        opacity: .8;
+        color: white;
+        padding: 20px;
+        background: #FE7B8F;
+    }
+    
+    #about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .about-me {
+        padding: 10px 200px;
+
+    }
+
+    .projectsheading {
+        padding: 20px 200px;
+    }
+    
+    .p7 {
+        width: 15%;
+        left: 21%;
+        top: 30%;
+    }
+
+    .p8 {
+        width: 15%;
+        left: 74%;
+        top: 70%;
+    }
+
+    .p11 {
+        width: 15%;
+        left: 21%;
+        top: 6%;
+    }
+    
+    .p12 {
+        width: 15%;
+        left: 73%;
+        top: 60%;
+    }
 }
 
 @media screen and (min-width: 922px) {
@@ -519,7 +574,7 @@ a:hover {
     
     .portrait {
         position: relative;
-        width: 60%;
+        width: 70%;
         height: auto;
         margin-left: auto;
         margin-right: auto;
@@ -558,6 +613,10 @@ a:hover {
         background: #FE7B8F;
     }
 
+    .intro-text {
+        margin-top: 50px;
+    }
+
     .p7 {
         width: 15%;
         left: 21%;
@@ -594,6 +653,7 @@ a:hover {
 
     .about-me {
         padding: 20px 200px;
+
     }
     
     .projectsheading {
