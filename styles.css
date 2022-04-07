@@ -451,8 +451,9 @@ a:hover {
 
     .portrait {
         position: relative;
-        width: 90%;
+        width: 80%;
         height: auto;
+        margin-top: 100px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -562,7 +563,7 @@ a:hover {
 @media screen and (min-width: 922px) {
     .portrait {
         position: relative;
-        width: 80%;
+        width: 60%;
         height: auto;
         margin-left: auto;
         margin-right: auto;
@@ -574,7 +575,7 @@ a:hover {
     
     .portrait {
         position: relative;
-        width: 70%;
+        width: 60%;
         height: auto;
         margin-left: auto;
         margin-right: auto;
@@ -582,22 +583,24 @@ a:hover {
 
     .p1 {
         width: 15%;
-        left: 70%;
+        left: 65%;
     }
 
     .p2 {
         min-width: 8%;
+        left: 58%;
     }
 
     .p3 {
         width: 15%;
         left: 25%;
+        top: 15%;
     }
 
     .p4 {
         min-width: 8%;
-        left: 20%;
-        top: 13%;
+        left: 19%;
+        top: 23%;
     }
 
     .headings {
@@ -609,7 +612,7 @@ a:hover {
         font-size: 40px;
         opacity: .8;
         color: white;
-        padding: 20px;
+        padding: 40px;
         background: #FE7B8F;
     }
 
