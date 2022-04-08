@@ -353,27 +353,27 @@ button a:hover {
     width: 40%;
 }
 
-a {
+.about-text a {
     color: white;
     font-size: 40px;
 }
 
-a:hover {
+.about-text a:hover {
     color: #be4356;
     transition: all 0.3s ease-in-out;
 }
 
-.project-flex {
+.project-container {
     display: inline-block;
-    align-items: center;
-    justify-content: center;
+    width: 90%;
 }
 
-.project-flex a img {
-    margin: 10px;
-    width: 300px;
+.project img{
+    position: relative;
     border: #fff solid 2px;
     border-radius: 40px;
+    width: 55%;
+    justify-content: center;
 }
 
 @media screen and (max-width: 600px) {
@@ -437,7 +437,7 @@ a:hover {
     }
 
     .p11 {
-        left: 35%;
+        left: 0%;
         top: 5%;
     }
 
@@ -446,18 +446,9 @@ a:hover {
         top: 50%;
     }
     
-    .project-flex {
-        display: inline-block;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .project-flex a img {
-        margin: 10px;
-        margin-left:125px;
-        width: 80%;
-        border: #fff solid 2px;
-        border-radius: 40px;
+    .projectsheading {
+        position: relative;
+        padding: 20px 100px;
     }
 
 }
@@ -520,18 +511,9 @@ a:hover {
         left: 55%;
         top: 50%;
     }
-    .project-flex {
-        display: inline-block;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .project-flex a img {
-        margin: 10px;
-        margin-left:150px;
-        width: 300px;
-        border: #fff solid 2px;
-        border-radius: 40px;
+    .projectsheading {
+        position: relative;
+        padding: 20px 100px;
     }
 }
 
@@ -573,7 +555,8 @@ a:hover {
     }
 
     .projectsheading {
-        padding: 20px 200px;
+        position: relative;
+        padding: 20px 180px;
     }
     
     .p7 {
@@ -599,19 +582,6 @@ a:hover {
         left: 73%;
         top: 60%;
     }
-
-    .project-flex {
-        display: inline-block;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .project-flex a img {
-        margin: 10px;
-        width: 50%;
-        border: #fff solid 2px;
-        border-radius: 40px;
-    }
 }
 
 @media screen and (min-width: 922px) {
@@ -621,15 +591,7 @@ a:hover {
         height: auto;
         margin-left: auto;
         margin-right: auto;
-    }
     
-    .project-flex a img {
-        display: inline-block;
-        height: 100px;
-        margin: 10px;
-        border: #fff solid 2px;
-        border-radius: 40px;
-    }
 }
 }
 
