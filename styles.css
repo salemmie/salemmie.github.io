@@ -300,6 +300,8 @@ header {
     border: 2px solid white;
     border-radius: 40px;
     opacity: .8;
+    text-align: center;
+    margin: 0 500px;
 }
 
 #contact {
@@ -362,12 +364,16 @@ a:hover {
     transition: all 0.3s ease-in-out;
 }
 
-.project {
-    display: inline-block;
-    width: 30%;
-    margin: 20px;
-    align-items: center;
+.project-flex{
+    display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.project {
+    max-width: 500px;
+    margin: 10px;
     border-radius: 40px;
     border: 2px solid white;
 }
