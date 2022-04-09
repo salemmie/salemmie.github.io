@@ -64,7 +64,6 @@ header {
     width: 550px;
     display: block;
     position: relative;
-    margin-top: 65px;
 } 
 
 #sparkle {
@@ -288,19 +287,23 @@ header {
 .projectsheading {
     position: relative;
     padding: 20px 180px;
+    margin-top: 10px;
 }
 
-.comingsoon {
+.project-container {
+    display: inline-block;
     position: relative;
-    color: white;
-    background-color: #FE7B8F;
-    padding: 20px;
-    font-size: 35px;
-    border: 2px solid white;
+    width: 100%;
+}
+
+.project img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    position: relative;
+    border: #fff solid 2px;
     border-radius: 40px;
-    opacity: .8;
-    text-align: center;
-    margin: 0 500px;
 }
 
 #contact {
@@ -363,19 +366,6 @@ button a:hover {
     transition: all 0.3s ease-in-out;
 }
 
-.project-container {
-    display: inline-block;
-    width: 90%;
-}
-
-.project img{
-    position: relative;
-    border: #fff solid 2px;
-    border-radius: 40px;
-    width: 55%;
-    justify-content: center;
-}
-
 @media screen and (max-width: 600px) {
 
     .navbar ul li {
@@ -435,16 +425,6 @@ button a:hover {
     .p10 {
         left: 92%;
     }
-
-    .p11 {
-        left: 0%;
-        top: 5%;
-    }
-
-    .p12 {
-        left: 55%;
-        top: 50%;
-    }
     
     .projectsheading {
         position: relative;
@@ -502,19 +482,11 @@ button a:hover {
     .p10 {
         left: 92%;
     }
-    .p11 {
-        left: 35%;
-        top: 5%;
-    }
-
-    .p12 {
-        left: 55%;
-        top: 50%;
-    }
     .projectsheading {
         position: relative;
         padding: 20px 100px;
     }
+    
 }
 
 @media screen and (min-width: 768px) {
