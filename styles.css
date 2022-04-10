@@ -301,3 +301,102 @@ button a:hover {
     transition: all 0.3s ease-in-out;
 }
 
+@media screen and (max-width: 600px) {
+    .portrait {
+        margin-top: 25%;
+        width: 90%;
+    }
+
+    .p1 {
+        top: 25%
+    }
+
+    .p2 {
+        top: 30%;
+    }
+
+    .about-me {
+        margin-top: 10%;
+    }
+
+    .projectsheading {
+        margin-top: 15%;
+    }
+
+    .project img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .portrait {
+        margin-top: 15%;
+        width: 90%;
+    }
+
+    .p1 {
+        top: 15%
+    }
+
+    .about-me {
+        margin-top: 10%;
+    }
+
+    .projectsheading {
+        margin-top: 20%;
+    }
+
+    .project img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .portrait {
+        margin-top: 10%;
+        width: 80%;
+    }
+
+    .p1 {
+        top: 15%
+    }
+
+    .about-me {
+        margin-top: 10%;
+    }
+
+    .projectsheading {
+        margin-top: 20%;
+    }
+
+    .project img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 922px) {
+    .portrait {
+        margin-top: 5%;
+        width: 80%;
+    }
+
+    .p1 {
+        top: 15%
+    }
+
+    .about-me {
+        margin-top: 10%;
+    }
+
+    .projectsheading {
+        margin-top: 20%;
+    }
+
+    .project img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+}
