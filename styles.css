@@ -239,8 +239,8 @@ body {
 }
 
 .project img{
-    margin-top: 2%;
-    width: 70%;
+    margin: 1rem 2rem 2rem 2rem;
+    width: 90%;
     position: relative;
     border: #fff solid 2px;
     border-radius: 40px;
@@ -299,6 +299,16 @@ button a:hover {
 .about-text a:hover {
     color: #be4356;
     transition: all 0.3s ease-in-out;
+}
+
+.follow {
+    font-size: 40px;
+    color: white;
+    background-color:#FE7B8F;
+    opacity: .8;
+    border: 2px solid white;
+    border-radius: 40px;
+    padding: 20px;
 }
 
 @media screen and (max-width: 600px) {
@@ -406,5 +416,318 @@ button a:hover {
 }
 
 @media screen and (min-width: 1200px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: 'Amatic SC', cursive;
+        scroll-behavior: smooth;
+    }
+    
+    @viewport {
+        width: device-width ;
+        zoom: 1.0 ;
+    }
+    
+    body {
+        background-color: #FFB6C1;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .navbar {
+        background: #FE7B8F;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+        list-style: none;
+    }
+    
+    .navbar ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: center;
+    }
+    
+    .navbar ul li {
+        font-size: 1.5rem;
+        margin: 20px 2%;
+    }
+    
+    .navbar ul li a {
+        color: white;
+        padding: 10px 25px;
+        border: solid white 2px;
+        border-radius: 10px;
+        align-items: center;
+    }
+    
+    .navbar ul li a:hover {
+        color: #FEA6B3;
+        transition: all 250ms ease-in-out;
+        background-color: #DB5F71;
+    }
+    
+    .portrait {
+        width: 60%;
+        display: flex;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        margin-top: 3%;
+    } 
+    
+    .sparklebig {
+        width: 10%;
+        -webkit-animation: fadeinout 2s linear;
+        animation: fadeinout 2s linear;
+        opacity: 0;
+        z-index: 998;
+        animation-name: sparkle1;
+        animation-duration: 3s;
+        animation-fill-mode: both;
+        animation-iteration-count: infinite; 
+        position: absolute;
+    }   
+    
+    @keyframes sparkle1 {
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:1; }
+    }
+    @-o-keyframes sparkle1{
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:1; }
+    }
+    @-moz-keyframes sparkle1{
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:1; }
+    }
+    @-webkit-keyframes sparkle1{
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:1; }
+    }
+    
+    .sparklesmall {
+        width: 5%;
+        -webkit-animation: fadeinout 1s linear;
+        animation: fadeinout 1s linear;
+        opacity: 0;
+        z-index: 998;
+        animation-name: sparkle2;
+        animation-duration: 2.5s;
+        animation-fill-mode: both;
+        animation-iteration-count: infinite;
+        position: absolute;
+    }
+    
+    @keyframes sparkle2 {
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:1; }
+    }
+    @-o-keyframes sparkle2{
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:1; }
+    }
+    @-moz-keyframes sparkle2{
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:1; }
+    }
+    @-webkit-keyframes sparkle2{
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:1; }
+    }
+    
+    .headings { 
+        position: relative; 
+        text-align: center;    
+        align-items: center;
+        font-size: 40px;
+        opacity: .8;
+        color: white;
+        background: #FE7B8F;
+        padding: 2%;
+        border-top: 2px white solid;
+        border-bottom: 2px white solid;
+    }
+    
+    .intro-text {
+        position: relative;
+        border-radius: 40px;
+        border: 2px solid white;
+        margin: 0 15% 15% 15%;
+    }
+    
+    .p1 {
+        position: absolute;
+        left: 30%;
+        top: 10%;
+    }
+    
+    .p2 {
+        position: absolute;
+        left: 25%;
+        top: 20%;
+    }
+    
+    .p3 {
+        position: absolute;
+        right: 25%;
+        bottom: 5%;
+    }
+    
+    .p4 {
+        position: absolute;
+        right: 35%;
+        bottom: 2%;
+    }
+    
+    .p5 {
+        display: none;
+    }
+    
+    .p6 {
+        display: none;
+    }
+    
+    #home {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .about-me {
+        width: 100%;
+        margin: 2% 0px 2% 0px;
+    }
+    
+    .about-text {
+        position: relative;
+        text-align: center;
+        opacity: .8;
+        font-size: 2rem;
+        padding: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        background-color: #FE7B8F;
+        border: 2px solid white;
+        border-radius: 60px;
+        width: 80%;
+    
+    }
+    
+    #projects {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .projectsheading {
+        position: relative;
+        width: 100%;
+        margin: 2% 0px 2% 0px
+    }
+    
+    .project-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .project img{
+        margin: 1rem 2rem 2rem 2rem;
+        width: 90%;
+        position: relative;
+        border: #fff solid 2px;
+        border-radius: 40px;
+    }
+    
+    #contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10% 5% 2% 5%;
+    }
+    
+    button {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        background-color:transparent;
+        color: #fff;
+        border:none; 
+        border-radius:10px; 
+    }
+    
+    button a {
+        position: relative;
+        color: white;
+        border: 2px solid white;
+        border-radius: 40px;
+        align-items: center;
+        font-size: 40px;
+        opacity: .8;
+        padding: 20px;
+        background: #FE7B8F;
+        width: 40%;
+        max-width: 1200px;
+    }
+    
+    button a:hover {
+        background-color: #DB5F71;
+        color: #FEA6B3;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .logos {
+        margin: 20px 20px 0 20px;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+    }
+    
+    .about-text a {
+        color: white;
+        font-size: 40px;
+    }
+    
+    .about-text a:hover {
+        color: #be4356;
+        transition: all 0.3s ease-in-out;
+    }
 
+    .follow {
+        font-size: 40px;
+        color: white;
+        background-color:#FE7B8F;
+        opacity: .8;
+        border: 2px solid white;
+        border-radius: 40px;
+        padding: 20px;
+    }
+    
+    
 }
