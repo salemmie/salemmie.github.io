@@ -77,11 +77,25 @@
         </div>
         <h2 class="follow">More to follow!</h2>
     </section>
-
-    <section id="contact">
-        <div class="contact-me">
-            <button class="contact-me"><a href='mailto: salem.whitmire@gmail.com'>Contact Me!</a></button>
-        </div>
-    </section>
+        <section id="contact">
+            <div class="form-wrapper">
+                 <header class="form-head">
+                     <h2>Contact Me!</h2>
+                 </header>
+                 <form
+                 action="https://formspree.io/f/xpzbyynz"
+                 method="POST">
+                     <div class="name-form">
+                         <label for="name">Your Lovely Name:</label>
+                         <input type="text" name="name" required>
+                     </div>
+                     <div class="email-form">
+                         <label for="email">Your Lovely Email:</label>
+                         <input type="email" name="_replyto" required>
+                     </div>
+                     <button type="submit">Submit</button>
+                 </form>
+             </div>
+         </section>
 </body>
 </html>

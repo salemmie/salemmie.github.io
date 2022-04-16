@@ -44,12 +44,13 @@ body {
     padding: 10px 25px;
     border: solid white 2px;
     border-radius: 10px;
-    align-items: center;
+    align-items: center;    
+    transition: all 250ms ease-in-out;
 }
 
 .navbar ul li a:hover {
     color: #FEA6B3;
-    transition: all 250ms ease-in-out;
+
     background-color: #DB5F71;
 }
 
@@ -248,12 +249,12 @@ body {
 }
 
 #contact {
+    min-height: 100vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin: 10% 5% 2% 5%;
+    justify-content: center;
 }
+
 
 button {
     display: block;
@@ -263,6 +264,46 @@ button {
     color: #fff;
     border:none; 
     border-radius:10px; 
+}
+
+.form-wrapper {
+    background:#FE7B8F;
+    opacity: .8;
+    width: 70%;
+    color: white;
+    border-radius: 20px;
+    max-height: 60vh;
+}
+
+.form-head {
+    text-align: center;
+    padding: 4rem;
+    font-size: 2.5rem;
+}
+
+.name-form, .email-form {
+    text-align: center;
+    padding: 1rem;
+}
+
+.form-wrapper label {
+    margin: 0rem 3rem;
+    font-size: 2rem;
+}
+
+.form-wrapper button {
+    width: 100%;
+    padding: 2rem;
+    margin-top: 2rem;
+    background:#be4356;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.form-wrapper input {
+    padding: 1rem 3rem;
 }
 
 button a {
@@ -276,13 +317,14 @@ button a {
     padding: 20px;
     background: #FE7B8F;
     width: 40%;
-    max-width: 1200px;
+    max-width: 1200px;    
+    transition: all 0.3s ease-in-out;
 }
 
 button a:hover {
     background-color: #DB5F71;
     color: #FEA6B3;
-    transition: all 0.3s ease-in-out;
+
 }
 
 .logos {
