@@ -14,11 +14,17 @@
     <header class="main-head">
         <nav>
             <h1 id="logo">Elena Joy</h1>
+            <input type="checkbox" class="menu-check">
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#work">Work</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
     </header>
     <main>
@@ -32,9 +38,51 @@
                 <img class= "hero-elena" src="./img/elena-joy.png" alt="Picture of Elena Joy.">
                 <img class="plant1 plant" src="./img/plant1.png" alt="">
                 <img class="plant2 plant" src="./img/plant2.png" alt="">
+            </div>     
+        </section>
+        <section id="about">
+            <div class="about-image">
+                <h5>MINIMAL</h5>
+                <img src="./img/about-image.png" alt="portrait">
             </div>
-            
+            <div class="about-text flex">
+                <h2>Elena Joy</h2>
+                <div class="about-life">
+                    <h3>My Life</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, deserunt nobis itaque dolorum adipisci amet aliquid ad. Accusantium, aliquid modi!</p>
+                </div>
+                <div class="about-work">
+                    <h3>My Work</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, deserunt nobis itaque dolorum adipisci amet aliquid ad. Accusantium, aliquid modi!</p>
+                </div>
+            </div>
+        </section>
+        <div class="gallery">
+            <header class="gallery-head">
+                <h2>Quality Photography</h2>
+            </header>
+            <img class="gallery1" src="./img/gallery-1.jpg" alt="man in suit">
+            <img class="gallery2" src="./img/gallery-2.jpg" alt="ladi in coat">
+            <img class="gallery3" src="./img/gallery-3.jpg" alt="lady in t-shirt">
+            <img class="gallery4" src="./img/gallery-4.jpg" alt="lady in jacket">
+        </div>
+        <section id="contact">
+            <div class="form-wrapper flex">
+                <h2>Get in<br> <span>touch.</span></h2>
+                <form for="email" action="/">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" required>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <img src="./img/contact-image.jpg" alt="elena joy">
         </section>
     </main>
+    <footer>
+        <h4>Elena Joy &copy; 2022</h4>
+        <ul>
+            <li><a href="https://salemmie.github.io">Back to my portfolio!</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
