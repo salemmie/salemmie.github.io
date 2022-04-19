@@ -4,99 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Madison Thompson | Web Dev</title>
+    <meta name="description" content="Front-End Web Developer's portfolio of projects!">
+    <meta name="robots" content="index,follow">
+    <link rel="stylesheet" href="./styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-
+    <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@400;500;600&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="icon" href="./icons/iconmonstr-favorite-8.svg">
+    <title>Madison Thompson | Web Developer</title>
 </head>
 <body>
-    
-    <header>
-        <nav class="navbar">
+    <header class="main-head">
+        <nav>
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M18 1l-6 4-6-4-6 5v7l12 10 12-10v-7z" /></svg>
+                <h1>Madison Thompson</h1>
             <ul>
-                <li><a href="#home">Home</a></li>
+                <li><a href=".main-head">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact</a></li>
             </ul>
         </nav>
     </header>
-
-    <section id="home">
-        <div class= "portrait">  
-                <img class="sparklebig p1" src="images/sparkle.png">
-                <img class="sparklesmall p2" src="images/sparkle.png">
-                <img class="sparklebig p3" src="images/sparkle.png">
-                <img class="sparklesmall p4" src="images/sparkle.png">
-           
-            <img class="portrait" src="images/portrait.png">
+    <section class="intro">
+        <div class="intro-text">
+            <h2>Madison Thompson</h2>
+            <h3>Front-End Web Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, earum!</p>
+            <div class="intro-social">   
+                <a href="https://www.linkedin.com/in/madison-d-thompson/" target="_break"><img src="./icons/linked-in.svg" alt="Linkedin-Social-Link"></a>
+            </div> 
         </div>
-        <div class="container">
-            <div class="">              <h1 class="headings intro-text">Hi! Welcome to my Web Dev Portfolio!</h1>
-                <img class="sparklesmall p5" src="images/sparkle.png">
-                <img class="sparklesmall p6" src="images/sparkle.png"> 
- 
-          
+        <div class="intro-images">
+            <img src="./images/portrait2.png" class="portrait">
         </div>
-
-        </div>
-        
     </section>
-    <section id="about"> 
- 
-        <div class="about-me">
-            <!-- <img class="sparklesmall p7" src="images/sparkle.png"> -->
-            <!-- <img class="sparklesmall p8" src="images/sparkle.png">      -->
-
-            <h2 class="headings about-me">About Me</h2>
+    <section id="about">
+        <div class="about-text">
+        <h2>About Me!</h2>
+        <p>I'm Madison (I prefer Salem), a digital illustrator turned web developer. I'm new to the industry, but curious and learning fast! I'm an analytical thinker and I truly enjoy putting together beautiful projects that work just as great as they look.</p>
+        <p class="skills-head">Some of my skills are:</p>
         </div>
-            <div class="about-text">
-                <!-- <img class="sparklesmall p9" src="images/sparkle.png"> -->
-                <!-- <img class="sparklesmall p10" src="images/sparkle.png"> -->
-                <p>I'm Madison Thompson (I prefer Salem), a digital illustrator turned web developer. I'm new to the industry, but curious and learning fast!</p>
-                <p>I'm an analytical thinker and truly enjoy putting together beautiful projects that work just as great as they look.</p>
-                <p>Some of my skills are:</p>
-                <img class="logos" src="images/logos.png" alt="HTML CSS Javascript"><br>
-                <a href="MTResume.pdf" download="MTResume.pdf">Click here to download my resume!</a>
-            </div>
-         </div>  
-
+        <ul>
+            <li class="skills">HTML5</li>
+            <li class="skills">CSS</li>
+            <li class="skills">SASS</li>
+            <li class="skills">JavaScript</li>
+        </ul>
+        <a href="MTResume.pdf" download="MTResume.pdf" class="resume">Click here to download my resume!</a>
     </section>
-    <section id="projects">         
-        <div class="projectsheading">
-        <h2 class="headings projectsheading">Projects</h2>
-        <!-- <img class="sparklesmall p11" src="images/sparkle.png"> -->
-        <!-- <img class="sparklesmall p12" src="images/sparkle.png"> -->
-        </div>
-        <div class="project-container">
-            <a class="project center" href="projects/Meditation App/index.html"><img  src="./images/B6FBB7E7-3FAD-448F-AEFA-9D9639809B96.jpeg" alt="An image of a meditation app."></a>
-            <a class="project center" href="projects/Memory Game/index.html"><img  src="./images/2D8E268D-E88E-42FF-A260-1874AC00508B.jpeg" alt="An image of a memory game."></a>
-            <a class="project center" href="projects/Travel Website/index.html"><img src="images/70D60958-E9C0-4447-AE0D-3DF8297F4071.jpeg" alt="An image of a travel website."></a>
-            <a class="project center" href="projects/Elena Joy Photography/index.html"><img src="./images/785218A2-B8CA-4218-896C-53FB302E409C.jpeg" alt="An image of a photography site."></a>
-        </div>
-        <h2 class="follow">More to follow!</h2>
-    </section>
-        <section id="contact">
-            <div class="form-wrapper">
-                 <header class="form-head">
-                     <h2>Contact Me!</h2>
-                 </header>
-                 <form
-                 action="https://formspree.io/f/xpzbyynz"
-                 method="POST">
-                     <div class="name-form">
-                         <label for="name">Your Lovely Name:</label>
-                         <input type="text" name="name" required>
-                     </div>
-                     <div class="email-form">
-                         <label for="email">Your Lovely Email:</label>
-                         <input type="email" name="_replyto" required>
-                     </div>
-                     <button type="submit">Submit</button>
-                 </form>
-             </div>
-         </section>
 </body>
 </html>

@@ -1,0 +1,41 @@
+#about {
+    @include flex(center, center, column);
+    background: #f9a2a6;
+    width: 100%;
+    .about-text {
+        @include flex(center,center,column);
+        margin: 5rem;
+    }
+    h2 {
+        color: #8c0a0a;
+        font-family: 'Sacramento', cursive;
+        margin-top: 5rem;
+        font-size: 7rem;
+        padding: 5rem;
+    }
+    p {
+        text-align: center;
+        color: white;
+        font-family: 'Akshar', sans-serif;
+        font-size: 4rem;
+        padding: 3rem;
+        
+    }
+    ul {
+        color: white;
+        font-family: 'Akshar', sans-serif;
+        @include flex( center, center, row);
+    }
+    li {
+        margin: 2rem;
+        font-size: 3rem;
+    }
+    .skills-head {
+        margin-top: 5rem;
+    }
+    .resume {
+        color: white;
+        font-family: 'Akshar', sans-serif;
+        margin: 3rem;
+    }
+}
