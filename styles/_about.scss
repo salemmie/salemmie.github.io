@@ -2,6 +2,7 @@
     @include flex(center, center, column);
     background: #f9a2a6;
     width: 100%;
+    border-radius: 20px;
     .about-text {
         @include flex(center,center,column);
         margin: 5rem;
@@ -36,6 +37,6 @@
     .resume {
         color: white;
         font-family: 'Akshar', sans-serif;
-        margin: 3rem;
+        margin: 4rem;
     }
 }

@@ -1,0 +1,23 @@
+#projects {
+    @include flex(center, center, column)
+    height: 100vh;
+    h2 {
+        color: #8c0a0a;
+        font-family: 'Sacramento', cursive;
+        font-size: 7rem;
+        margin: 3.5rem;
+    }
+    .project-grid {
+        display: grid;
+        grid-template-columns:auto auto;
+        grid-template-rows: auto auto;
+
+    }
+    .project-grid img {
+        width: 500px;
+        height: 300px;
+        border-radius: 20px;
+        margin: 3rem;
+        border: 1px gray solid;
+    }
+}

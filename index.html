@@ -14,16 +14,16 @@
     <title>Madison Thompson | Web Developer</title>
 </head>
 <body>
-    <header class="main-head">
+    <header class="main-head" id="home">
         <nav>
             <div class="logo">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M18 1l-6 4-6-4-6 5v7l12 10 12-10v-7z" /></svg>
                 <h1>Madison Thompson</h1>
             <ul>
-                <li><a href=".main-head">Home</a></li>
+                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="/">Projects</a></li>
-                <li><a href="/">Contact</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -54,5 +54,39 @@
         </ul>
         <a href="./MTResume.pdf" download="MTResume.pdf" class="resume">Click here to download my resume!</a>
     </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <a class="project1" href="projects/Meditation App/index.html"><img  src="./images/meditation.jpeg" alt="An image of a meditation app."></a>
+            <a class="project2" href="projects/Memory Game/index.html"><img  src="./images/memory.jpeg" alt="An image of a memory game."></a>
+            <a class="project3" href="projects/Travel Website/index.html"><img src="./images/travelly.jpeg" alt="An image of a travel website."></a>
+            <a class="project4" href="projects/Elena Joy Photography/index.html"><img src="./images/photography.jpeg" alt="An image of a photography site."></a>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="form-wrapper">
+            <header class="form-head">
+                <h2>Contact Me!</h2>
+            </header>
+            <form
+            action="https://formspree.io/f/xpzbyynz"
+            method="POST">
+                <div class="name-form">
+                    <label for="name">Your Lovely Name:</label>
+                    <input type="text" name="name" required>
+                </div>
+                <div class="email-form">
+                    <label for="email">Your Lovely Email:</label>
+                    <input type="email" name="_replyto" required>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer class="bottom">
+        <ul>
+            <li><a href="#home">Back to the top!</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
