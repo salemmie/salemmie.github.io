@@ -90,9 +90,9 @@ li {
   border-radius: 50%;
   width: 30vw;
   min-width: 200px;
-  max-width: 450px;
+  max-width: 400px;
   min-height: 250px;
-  max-height: 450px;
+  max-height: 400px;
 }
 
 .home {
@@ -127,6 +127,7 @@ footer {
   width: 100%;
   color: #ffe5d9;
   font-size: 1.5rem;
+  height: 60px;
   padding: 20px;
 }
 
@@ -156,24 +157,36 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background-color: #ffe5d9;
+  margin: 100px 50px 100px 50px;
+  border: #9d8189 dashed 5px;
+  border-radius: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 25px;
+  align-items: center;
+  justify-content: center;
 }
 
 .project-container a {
-  height: 300px;
-  margin: 50px auto 50px auto;
+  max-width: 550px;
+  min-width: 250px;
+  max-height: 350px;
+  min-height: 150px;
+  margin: 20px;
 }
 
 .project-container a img {
-  width: 40vw;
-  max-width: 400px;
-  min-width: 350px;
-  height: 30vh;
-  max-height: 300px;
-  min-height: 250px;
-  background-color: #ffe5d9;
+  max-width: 550px;
+  min-width: 250px;
+  max-height: 350px;
+  min-height: 150px;
   border: 5px dashed #9d8189;
   border-radius: 20px;
-  margin: 50px auto 50px auto;
 }
 
 .about-container h3 {
