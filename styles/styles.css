@@ -120,14 +120,12 @@ li {
 }
 
 footer {
-  position: fixed;
   bottom: 0;
   background-color: #9d8189;
   width: 100%;
   color: #ffe5d9;
   font-size: 1.5rem;
   padding: 20px;
-  margin-top: 100px;
 }
 
 .about-container {
@@ -152,12 +150,13 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .project-container a {
-  width: 400px;
   height: 300px;
   margin: 50px auto 50px auto;
 }
@@ -235,7 +234,7 @@ footer {
   }
   .nav-menu.active {
     left: 0;
-    height: 85%;
+    height: 100%;
   }
   .portrait {
     min-width: 250px;
@@ -247,15 +246,26 @@ footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: 25% auto 25% auto;
+    margin: 25% 5%;
+    font-size: 1rem;
+  }
+  .about-container a {
+    text-align: center;
   }
   .project-container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin: auto;
-    width: 80%;
+    background-color: #ffe5d9;
+    margin: 5%;
+    border: #9d8189 dashed 5px;
+    border-radius: 20px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .project-container a img {
+    width: 3vw;
   }
   .footer {
     font-size: 10px;
