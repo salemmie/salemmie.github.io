@@ -203,7 +203,7 @@ footer {
         width: 100%;
         text-align: center;
         transition: 0.3s;
-        height: 85%;
+        height: 100%;
     }
 
     .nav-item {
@@ -212,7 +212,7 @@ footer {
 
     .nav-menu.active {
         left: 0;
-        height: 100%;
+        top: 0;
     }
 
     .portrait {

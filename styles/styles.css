@@ -242,14 +242,14 @@ footer {
     text-align: center;
     -webkit-transition: 0.3s;
     transition: 0.3s;
-    height: 85%;
+    height: 100%;
   }
   .nav-item {
     margin: auto;
   }
   .nav-menu.active {
     left: 0;
-    height: 100%;
+    top: 0;
   }
   .portrait {
     min-width: 250px;
