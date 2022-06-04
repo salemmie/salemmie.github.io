@@ -215,12 +215,13 @@ footer {
 
     .about-container {
         display: flex;
-        margin: 25% 10px 25% 10px;
+        margin: 25% auto 25% auto;
     }
 
     .project-container {
-        display: flex;
-        margin: 10% 5%;
+        flex-direction: column;
+        margin: auto;
+        width: 80%;
     }
 
     .footer {
