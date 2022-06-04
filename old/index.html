@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Front-End Web Developer's portfolio of projects!">
+    <meta name="robots" content="index,follow">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@400;500;600&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="icon" href="./icons/iconmonstr-favorite-8.svg">
+    <title>Madison Thompson | Web Developer</title>
+</head>
+<body>
+    <header class="main-head" id="home">
+        <nav>
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M18 1l-6 4-6-4-6 5v7l12 10 12-10v-7z" /></svg>
+                <h1>Madison Thompson</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="intro">
+        <div class="intro-text">
+            <h2>Madison Thompson</h2>
+            <h3>Front-End Web Developer</h3>
+            <p>Welcome to my portfolio!</p>
+            <div class="intro-social">   
+                <a href="https://www.linkedin.com/in/madison-d-thompson/" target="_break"><img src="./icons/linked-in.svg" alt="Linkedin-Social-Link"></a>
+            </div> 
+        </div>
+        <div class="intro-images">
+            <img src="./images/portrait2.png" class="portrait">
+        </div>
+    </section>
+    <section id="about">
+        <div class="about-text">
+        <h2>About Me!</h2>
+        <p>I'm Madison (I prefer Salem), a digital illustrator turned web developer. I'm new to the industry, but curious and learning fast! I'm an analytical thinker and I truly enjoy putting together beautiful projects that work just as great as they look.</p>
+        <p class="skills-head">Some of my skills are:</p>
+        </div>
+        <ul>
+            <li class="skills">HTML5</li>
+            <li class="skills">CSS</li>
+            <li class="skills">SASS</li>
+            <li class="skills">JavaScript</li>
+        </ul>
+        <a href="./MTResume.pdf" download="MTResume.pdf" class="resume">Click here to download my resume!</a>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <a class="project1" href="projects/Meditation App/index.html"><img  src="./images/meditation.jpeg" alt="An image of a meditation app."></a>
+            <a class="project2" href="projects/Memory Game/index.html"><img  src="./images/memory.jpeg" alt="An image of a memory game."></a>
+            <a class="project3" href="projects/Travel Website/index.html"><img src="./images/travelly.jpeg" alt="An image of a travel website."></a>
+            <a class="project4" href="projects/Elena Joy Photography/index.html"><img src="./images/photography.jpeg" alt="An image of a photography site."></a>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="form-wrapper">
+            <header class="form-head">
+                <h2>Contact Me!</h2>
+            </header>
+            <form
+            action="https://formspree.io/f/xpzbyynz"
+            method="POST">
+                <div class="name-form">
+                    <label for="name">Your Lovely Name:</label>
+                    <input type="text" name="name" required>
+                </div>
+                <div class="email-form">
+                    <label for="email">Your Lovely Email:</label>
+                    <input type="email" name="_replyto" required>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer class="bottom">
+        <ul>
+            <li><a href="#home">Back to the top!</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
