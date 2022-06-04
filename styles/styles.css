@@ -228,6 +228,7 @@ footer {
     text-align: center;
     -webkit-transition: 0.3s;
     transition: 0.3s;
+    height: 85%;
   }
   .nav-item {
     margin: auto;
