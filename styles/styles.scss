@@ -70,11 +70,11 @@ a {
 }
 
 .portrait {
-    width: 35%;
     height: auto;
     margin: 20px auto;
     border: 5px dashed #9d8189;
     border-radius: 50%;
+    width: 30vw;
     min-width: 300px;
     max-width: 500px;
 }
@@ -94,7 +94,7 @@ a {
 .home p {
     color: #9d8189;
     font-size: 2rem;
-    margin: 30px 0 50px 0;
+    margin: 50px auto 50px auto;
     text-align: center;
 }
 
