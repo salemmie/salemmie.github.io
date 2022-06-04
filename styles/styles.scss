@@ -20,7 +20,7 @@ li {
     list-style: none;
 }
 
-a {
+.navbar a {
     color: #ffe5d9;
     text-decoration: none;
     font-size: 1.3rem;
@@ -75,7 +75,7 @@ a {
     border: 5px dashed #9d8189;
     border-radius: 50%;
     width: 30vw;
-    min-width: 300px;
+    min-width: 150px;
     max-width: 500px;
 }
 
@@ -149,6 +149,18 @@ footer {
     margin: 50px;
 }
 
+.about-container a {
+    color:#9d8189;
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 0 0 50px 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.about-container a:hover {
+    color: #f4acb7;
+}
+
 .about-container p {
     font-size: 1.5rem;
     text-align: center;
@@ -191,6 +203,28 @@ footer {
 
     .nav-menu.active {
         left: 0;
+    }
+
+    .portrait {
+        min-width: 250px;
+    }
+
+    .home p {
+        margin: 80px auto 0 auto;
+    }
+
+    .about-container {
+        display: flex;
+        margin: 25% 10px 25% 10px;
+    }
+
+    .project-container {
+        display: flex;
+        margin: 10% 5%;
+    }
+
+    .footer {
+        font-size: 10px;
     }
 }
     
