@@ -179,6 +179,8 @@ footer {
 
     .hamburger { 
         display: block;
+        position: fixed;
+        right: 25px;
     }
 
     .hamburger.active .bar:nth-child(2) {
@@ -197,7 +199,6 @@ footer {
         position: fixed;
         left: -100%;
         top: 70px;
-        gap: 0;
         flex-direction: column;
         background-color: #9d8189;
         width: 100%;
@@ -213,6 +214,7 @@ footer {
     .nav-menu.active {
         left: 0;
         top: 0;
+        bottom: auto;
     }
 
     .portrait {

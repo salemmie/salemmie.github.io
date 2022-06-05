@@ -216,6 +216,8 @@ footer {
 @media (max-width: 768px) {
   .hamburger {
     display: block;
+    position: fixed;
+    right: 25px;
   }
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
@@ -232,7 +234,6 @@ footer {
     position: fixed;
     left: -100%;
     top: 70px;
-    gap: 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -250,6 +251,7 @@ footer {
   .nav-menu.active {
     left: 0;
     top: 0;
+    bottom: auto;
   }
   .portrait {
     min-width: 250px;
