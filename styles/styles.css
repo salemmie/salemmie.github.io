@@ -121,13 +121,17 @@ li {
   text-align: center;
 }
 
-footer {
+.footer-container {
+  position: absolute;
   bottom: 0;
+  width: 100%;
+}
+
+footer {
   background-color: #9d8189;
   width: 100%;
   color: #ffe5d9;
   font-size: 1.5rem;
-  height: 60px;
   padding: 20px;
 }
 
@@ -258,6 +262,7 @@ footer {
   }
   .home p {
     margin: 80px auto 0 auto;
+    padding: 25px;
   }
   .about-container {
     display: -webkit-box;
